@@ -25,7 +25,8 @@ public class Wpjoboard {
 		System.out.println(text);
 		driver.findElement(By.xpath("//*[@id=\"toplevel_page_wpjb-job\"]/ul/li[3]/a")).click();
 		driver.findElement(By.xpath("//*[@id=\"the-list\"]/tr[1]/td[7]/span/span[1]/span[4]")).click();
-
+		System.out.println("manikanta");
+		driver.quit();
 
 
 	}
