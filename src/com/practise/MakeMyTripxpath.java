@@ -22,6 +22,7 @@ public class MakeMyTripxpath {
 		WebElement element2 = driver.findElement(By.xpath("//span[text()='08:20']//following::div[@class='textRight flexOne']//child::p[text()='₹ 13,619']"));
 		String text2 = element2.getText();
 		System.out.println(text2);
+		
 
 
 
