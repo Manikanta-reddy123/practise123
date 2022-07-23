@@ -38,7 +38,10 @@ public static void main(String[] args) {
 		WebElement password = driver.findElement(By.id("password"));
 
 		password.sendKeys("@1234567");
+<<<<<<< HEAD
 		System.out.println("hai iam mani");
+=======
+>>>>>>> bb56de71a34072eb664b1412061ae7bf15961933
 	
 		
 
