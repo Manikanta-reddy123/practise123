@@ -26,6 +26,7 @@ public class Flipkart {
 		WebElement element = driver.findElement(By.xpath("//a[@class='_1fQZEK']//child::div[@class='_25b18c']"));
 		String text = element.getText();
 		System.out.println(text);
+		System.out.println("manikanta hai ");
 
 
 	}
